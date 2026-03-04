@@ -1,0 +1,179 @@
+
+  /* ===== ОБЩИЕ СТИЛИ ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ФОН САЙТА */
+
+body {
+    background: linear-gradient(135deg, #001f3f, #0074D9);
+    color: white;
+}
+
+/* ЗАГОЛОВКИ */
+
+h1 {
+    font-size: 50px;
+    text-shadow: 0 6px 20px rgba(0,0,0,0.6);
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+/* ШАПКА */
+
+.header-right {
+    text-align: right;
+    padding: 40px 80px 20px 20px;
+}
+
+.header-content {
+    max-width: 700px;
+    margin-left: auto;
+}
+
+/* НАВИГАЦИЯ */
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 25px;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.3);
+    transition: 0.3s;
+    display: inline-block;
+}
+
+/* ===== ОБЩИЕ СТИЛИ ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== ФОН С КАРТИНКОЙ ===== */
+
+body {
+    background: url("hockey.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+/* ТЕМНОЕ ЗАТЕМНЕНИЕ НАД ФОНОМ */
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+header,
+section,
+footer {
+    position: relative;
+    z-index: 1;
+}
+
+/* ===== ЗАГОЛОВКИ ===== */
+
+h1 {
+    font-size: 50px;
+    text-shadow: 0 6px 20px rgba(0,0,0,0.8);
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+/* ===== ШАПКА ===== */
+
+.header-right {
+    text-align: right;
+    padding: 40px 80px 20px 20px;
+}
+
+.header-content {
+    max-width: 700px;
+    margin-left: auto;
+}
+
+/* ===== НАВИГАЦИЯ ===== */
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 25px;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.3);
+    transition: 0.3s;
+    display: inline-block;
+}
+
+nav a:hover {
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
+    transform: scale(1.05);
+}
+
+nav a.active {
+    background: linear-gradient(45deg, #0052cc, #0099ff);
+}
+
+/* ===== КОНТЕНТ ===== */
+
+.content-right {
+    text-align: right;
+    padding: 40px 80px;
+    max-width: 800px;
+    margin-left: auto;
+}
+
+.lead {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-top: 10px;
+}
+
+/* ===== СПИСОК ИГРОКОВ ===== */
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* ===== ПОДВАЛ ===== */
+
+footer {
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 100px;
+    background: rgba(0,0,0,0.4);
+}
